@@ -1,9 +1,9 @@
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faHome, faPhone, faUser } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { IProfile } from '../component/profile/IProfile';
-import image from '../asset/sample_tux.png';
+import image from '../asset/profile.jpg';
 
 const profile: IProfile.Payload = {
   disable: false,
@@ -11,32 +11,33 @@ const profile: IProfile.Payload = {
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: 'Tux Linux Penguin',
-    small: '(Tux)',
+    title: '임성민',
+    small: '(인생교수)',
   },
   contact: [
     {
-      title: 'tux@linux.org',
-      link: 'mailto:tux@linux.org',
+      title: 'lifeprof@naver.com',
+      link: 'mailto:lifeprof@naver.com',
       icon: faEnvelope,
     },
     {
-      title: 'Please contact me by email',
+      title: '010-9550-9807',
       icon: faPhone,
       badge: true,
     },
     {
-      link: 'https://github.com/uyu423/resume-nextjs',
+      link: 'https://github.com/lifeprofessor/',
       icon: faGithub,
     },
     {
-      link: 'https://www.facebook.com/groups/ubuntu.ko',
-      icon: faFacebook,
+      link: 'https://bit.ly/인생교수',
+      icon: faHome,
     },
+    
   ],
   notice: {
     title:
-      "The content below is all fictitious and is just a sample from 'https://github.com/uyu423/resume-nextjs'.",
+      "이 이력서는 사실에 기반해 작성되었습니다.",
     icon: faBell,
   },
 };
