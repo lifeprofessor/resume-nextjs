@@ -8,25 +8,14 @@ const programmingLanguages: ISkill.Skill = {
       level: 3,
     },
     {
-      title: 'Shell Scripting',
+      title: 'JAVA',
       level: 3,
     },
     {
       title: 'Python',
-      level: 3,
-    },
-    {
-      title: 'Perl',
       level: 2,
     },
-    {
-      title: 'Golang',
-      level: 2,
-    },
-    {
-      title: 'Rust',
-      level: 1,
-    },
+    
   ],
 };
 
@@ -168,8 +157,8 @@ const skill: ISkill.Payload = {
     programmingLanguages,
     //kernelDevelopment,
     //virtualization,
-    automation,
-    networkSecurity,
+    //automation,
+    //networkSecurity,
     //misc,
   ],
   tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
