@@ -1,5 +1,5 @@
-import { faEnvelope, faHome, faPhone, faUser } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faHome, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { IProfile } from '../component/profile/IProfile';
@@ -33,11 +33,9 @@ const profile: IProfile.Payload = {
       link: 'https://bit.ly/인생교수',
       icon: faHome,
     },
-    
   ],
   notice: {
-    title:
-      "이 이력서는 사실에 기반해 작성되었습니다.",
+    title: '이 이력서는 사실에 기반해 작성되었습니다.',
     icon: faBell,
   },
 };
