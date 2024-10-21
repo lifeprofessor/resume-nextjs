@@ -5,28 +5,17 @@ const experience: IExperience.Payload = {
   disableTotalPeriod: false,
   list: [
     {
-      title: 'Linux Foundation',
-      position: 'System Engineer',
-      startedAt: '1996-02',
+      title: 'IT 전문 튜터링 교수/IT 전문 강의 및 강연',
+      position: '인생교수의 AI 연구소 대표',
+      startedAt: '2021-10',
       descriptions: [
-        'Steering Kernel patching and updates for various distributions',
-        'Automating deployment and integration processes for Linux servers',
-        'Spearheading initiatives to enhance Linux kernel security',
-        'Collaborating with global developers to coordinate code contributions',
+        '1:1 개인 맞춤 대면/비대면 IT 튜터링',
+        '기초부터 시작하는 AI 강연',
+        '정보처리기사 필기/실기 특강',
+        '컴퓨터활용능력 특강',
+        '대학생 멘토링 특강',
       ],
-      skillKeywords: ['C', 'Linux', 'Kernel', 'Security', ' Automation'],
-    },
-    {
-      title: 'Open Source Community',
-      position: 'System Advocate and Developer',
-      startedAt: '2010-06',
-      endedAt: '2018-01',
-      descriptions: [
-        'Promoted the use and development of Linux globally.',
-        'Developed automated scripts to streamline system configuration.',
-        'Facilitated live patching systems, reducing downtime.',
-      ],
-      skillKeywords: ['Open Source', 'Linux', 'AWS', 'RDBMS'],
+      skillKeywords: ['C', 'Java', 'Python', 'AI', 'Data Analysis'],
     },
   ],
 };
