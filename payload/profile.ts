@@ -1,7 +1,7 @@
-import { faEnvelope, faHome, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faHome, faPhone, faBuilding, faUser } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { IProfile } from '../component/profile/IProfile';
-import image from '../asset/profile.jpg';
+import image from '../asset/profile.png';
 
 const profile: IProfile.Payload = {
   disable: false,
@@ -14,6 +14,10 @@ const profile: IProfile.Payload = {
   },
   contact: [
     {
+      title: '인생교수의 AI 연구소 대표',
+      icon: faUser,
+    },
+    {
       title: 'lifeprof@naver.com',
       link: 'mailto:lifeprof@naver.com',
       icon: faEnvelope,
@@ -24,6 +28,12 @@ const profile: IProfile.Payload = {
       badge: true,
     },
     {
+      title: '인생교수의 AI 연구소',
+      link: 'https://map.naver.com/p/entry/place/1027158601?c=15.00,0,0,0,dh',
+      icon: faBuilding,
+    },
+    {
+      title: '인생교수의 AI 연구소 홈페이지',
       link: 'https://bit.ly/인생교수',
       icon: faHome,
     },
