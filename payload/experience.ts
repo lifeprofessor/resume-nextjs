@@ -26,7 +26,7 @@ const experience: IExperience.Payload = {
       ],
     },
     {
-      title: '(주)시스메이트',
+      title: '(주) 시스메이트',
       position: '주임 연구원',
       startedAt: '2015-10',
       endedAt: '2017-06',
