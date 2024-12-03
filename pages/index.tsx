@@ -11,6 +11,7 @@ import { Profile } from '../component/profile';
 import { Style } from '../component/common/Style';
 import Payload from '../payload';
 import { Presentation } from '../component/presentation';
+import { Footer } from '../component/footer';
 
 function Yosume() {
   return (
@@ -26,8 +27,8 @@ function Yosume() {
         <Education.Component payload={Payload.education} />
         <Experience.Component payload={Payload.experience} />
         <Presentation.Component payload={Payload.presentation} />
-
         <Etc.Component payload={Payload.etc} />
+        <Footer.Component />
       </Container>
     </>
   );
