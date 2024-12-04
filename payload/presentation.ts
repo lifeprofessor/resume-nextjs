@@ -6,7 +6,7 @@ const presentation: IPresentation.Payload = {
   list: [
     {
       title: '생성형 AI의 R&D분야 활용 방안',
-      subTitle: '항공우주연구원',
+      subTitle: '한국항공우주연구원',
       at: '2024-11',
       descriptions: [
         {
