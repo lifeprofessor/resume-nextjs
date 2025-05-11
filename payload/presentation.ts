@@ -5,6 +5,26 @@ const presentation: IPresentation.Payload = {
 
   list: [
     {
+      title: '어려운 AI는 가라! 컴공박사가 쉽게 알려주는 일상 속 인공지능 입문',
+      subTitle: '대전평생교육진흥원',
+      at: '2025-01',
+      descriptions: [
+        {
+          content: '대전평생교육진흥원 대전시민대학 AI 입문 교육 (20H)',
+        },
+      ],
+    },
+    {
+      title: '생성형 AI도구와 나만의 GPT로 만드는 스마트한 일상과 연구',
+      subTitle: '인생교수의 AI 연구소',
+      at: '2025-01',
+      descriptions: [
+        {
+          content: '대전 세종 석박사 소모임 모임원 25명 내외 교육 (3H)',
+        },
+      ],
+    },
+    {
       title: '생성형 AI의 R&D분야 활용 방안',
       subTitle: '한국항공우주연구원',
       at: '2024-11',

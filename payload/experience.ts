@@ -26,6 +26,24 @@ const experience: IExperience.Payload = {
       ],
     },
     {
+      title: '서대전여자고등학교',
+      position: '정보 교과-디지털 튜터',
+      startedAt: '2025-04',
+      descriptions: [
+        '인공지능 기초 수업 보조',
+        'AI 교구 활용한 방과후학교 수업',
+        '디지털 교과서 사용법 연수',
+        '선생님들 AI 기초 연수',
+        'AI 활용한 학생 대회 지원',
+        'AI 기반 학생부 점검 시스템 구축',        
+      ],
+      skillKeywords: [
+        'AI 교육 보조',
+        'AI 방과후학교 강사',
+        '선생님 AI 연수',
+      ],
+    },
+    {
       title: '(주) 시스메이트',
       position: '주임 연구원',
       startedAt: '2015-10',
