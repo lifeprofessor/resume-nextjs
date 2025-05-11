@@ -35,13 +35,9 @@ const experience: IExperience.Payload = {
         '디지털 교과서 사용법 연수',
         '선생님들 AI 기초 연수',
         'AI 활용한 학생 대회 지원',
-        'AI 기반 학생부 점검 시스템 구축',        
+        'AI 기반 학생부 점검 시스템 구축',
       ],
-      skillKeywords: [
-        'AI 교육 보조',
-        'AI 방과후학교 강사',
-        '선생님 AI 연수',
-      ],
+      skillKeywords: ['AI 교육 보조', 'AI 방과후학교 강사', '선생님 AI 연수'],
     },
     {
       title: '(주) 시스메이트',
