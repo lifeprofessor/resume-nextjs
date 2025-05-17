@@ -5,7 +5,27 @@ const presentation: IPresentation.Payload = {
 
   list: [
     {
-      title: '어려운 AI는 가라! 컴공박사가 쉽게 알려주는 일상 속 인공지능 입문',
+      title: 'Git&GitHub 활용 실무 심화 교육',
+      subTitle: '배재대학교 대학일자리플러스본부',
+      at: '2025-05',
+      descriptions: [
+        {
+          content: '배재대학교 IT전공자 재학생 (15H)',
+        },
+      ],
+    },
+    {
+      title: '2025년 2학기-어려운 AI는 가라! 컴공박사가 쉽게 알려주는 일상 속 인공지능 입문',
+      subTitle: '대전평생교육진흥원',
+      at: '2025-04',
+      descriptions: [
+        {
+          content: '대전평생교육진흥원 대전시민대학 AI 입문 교육 (20H)',
+        },
+      ],
+    },
+    {
+      title: '2025년 1학기-어려운 AI는 가라! 컴공박사가 쉽게 알려주는 일상 속 인공지능 입문',
       subTitle: '대전평생교육진흥원',
       at: '2025-01',
       descriptions: [
@@ -35,7 +55,7 @@ const presentation: IPresentation.Payload = {
       ],
     },
     {
-      title: 'Git&GitHub 활용 실무 교육',
+      title: 'Git&GitHub 활용 실무 기초 교육',
       subTitle: '배재대학교 대학일자리플러스본부',
       at: '2024-10',
       descriptions: [
