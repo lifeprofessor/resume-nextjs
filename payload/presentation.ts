@@ -5,6 +5,36 @@ const presentation: IPresentation.Payload = {
 
   list: [
     {
+      title: '어려운 AI는 가라! 컴공박사가 쉽게 알려주는 일상 속 인공지능 입문',
+      subTitle: '대전 문화1동 행정복지센터',
+      at: '2025-08',
+      descriptions: [
+        {
+          content: '대전광역시 문화1동 거주 중장년 (10H)',
+        },
+      ],
+    },
+    {
+      title: '2025년 3학기-어려운 AI는 가라! 컴공박사가 쉽게 알려주는 일상 속 인공지능 입문',
+      subTitle: '대전평생교육진흥원 대전시민대학',
+      at: '2025-07',
+      descriptions: [
+        {
+          content: '대전광역시 거주 중장년 (20H)',
+        },
+      ],
+    },
+    {
+      title: '질문으로 키우는 AI 리터러시-AI 디지털 범죄 예방 특강',
+      subTitle: '대전지역사회교육협의회',
+      at: '2025-07',
+      descriptions: [
+        {
+          content: '대전광역시 거주 청·장년 (18H)',
+        },
+      ],
+    },
+    {
       title: 'Git&GitHub 활용 실무 심화 교육',
       subTitle: '배재대학교 대학일자리플러스본부',
       at: '2025-05',
@@ -16,21 +46,21 @@ const presentation: IPresentation.Payload = {
     },
     {
       title: '2025년 2학기-어려운 AI는 가라! 컴공박사가 쉽게 알려주는 일상 속 인공지능 입문',
-      subTitle: '대전평생교육진흥원',
+      subTitle: '대전평생교육진흥원 대전시민대학',
       at: '2025-04',
       descriptions: [
         {
-          content: '대전평생교육진흥원 대전시민대학 AI 입문 교육 (20H)',
+          content: '대전광역시 거주 중장년 (20H)',
         },
       ],
     },
     {
       title: '2025년 1학기-어려운 AI는 가라! 컴공박사가 쉽게 알려주는 일상 속 인공지능 입문',
-      subTitle: '대전평생교육진흥원',
+      subTitle: '대전평생교육진흥원 대전시민대학',
       at: '2025-01',
       descriptions: [
         {
-          content: '대전평생교육진흥원 대전시민대학 AI 입문 교육 (20H)',
+          content: '대전광역시 거주 중장년 (20H)',
         },
       ],
     },
@@ -50,7 +80,7 @@ const presentation: IPresentation.Payload = {
       at: '2024-11',
       descriptions: [
         {
-          content: '위성정보활용협의체 기관별 담당자 AI 교육 (2H)',
+          content: '위성정보활용협의체 기관별 담당자 (2H)',
         },
       ],
     },
