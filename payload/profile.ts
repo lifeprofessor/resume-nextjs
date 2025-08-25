@@ -34,7 +34,7 @@ const profile: IProfile.Payload = {
     },
     {
       title: '인생교수의 AI 연구소 홈페이지',
-      link: 'https://bit.ly/인생교수',
+      link: 'https://lifeprof-lecture.netlify.app/',
       icon: faHome,
     },
   ],
